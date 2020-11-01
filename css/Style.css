@@ -140,6 +140,17 @@ img{
     width:100px;
     content: "";
 }
+/* about us */
+.aboutus{
+    padding: 40px 0;
+    background: #f1f1f1;
+    color: #434343;
+    text-align: center;
+}
+
+h4{
+    font-weight: 400;
+}
 .product_item{
     margin-bottom: 35px;
 }
@@ -208,6 +219,7 @@ img{
     font-size:14px ;
     color: gold;
 }
+/* team */
 .our-team{
     text-align: center;
     font-size: 40px;
@@ -245,6 +257,7 @@ img{
      font-weight: 300;
      color:rgb(129, 5, 47) ;
  }
+ /* testimonials */
  .testimonials{
      padding: 40px 0;
      background: #f1f1f1;
@@ -292,7 +305,7 @@ img{
      color: var(--primary-color);
      margin-bottom:20px;
  }
- 
+ /* footer */
  footer{
     display: -webkit-flex;
     display: -moz-flex;
@@ -384,4 +397,22 @@ img{
         font-size: 55px;
     }
 }
+@media (max-width : 600px){
+    .aboutus{
+        padding: 15px;
+    }
+    main{
+        font-size: 40px;
+    }
+}
+@media (max-width : 600px){
+    #testimonials{
+        padding: 15px;
+    }
+    main{
+        font-size: 55px;
+    }
+}
+
+
  
